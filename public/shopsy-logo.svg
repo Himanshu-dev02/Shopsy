@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="shopsyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ECDC4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45B7D1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bagGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE66D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF9F43;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#shopsyGradient)" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Shopping Bag -->
+  <path d="M30 35 L70 35 L68 75 C68 78 65 80 62 80 L38 80 C35 80 32 78 32 75 Z" 
+        fill="url(#bagGradient)" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- Bag Handles -->
+  <path d="M38 35 C38 28 42 22 50 22 C58 22 62 28 62 35" 
+        fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Shopping Items (small circles) -->
+  <circle cx="42" cy="50" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="50" cy="45" r="2.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="58" cy="52" r="2" fill="#ffffff" opacity="0.7"/>
+  
+  <!-- Letter 'S' overlay -->
+  <path d="M45 60 C45 58 46 57 48 57 L52 57 C54 57 55 58 55 60 C55 61 54 62 52 62 L48 62 C46 62 45 63 45 65 C45 66 46 67 48 67 L52 67 C54 67 55 66 55 65" 
+        fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

@@ -49,8 +49,7 @@ const Footer = () => {
               Shopsy
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+              “Shopsy — your one-stop online store for top-quality fashion, lifestyle, and everyday essentials at unbeatable prices. Shop smart, shop easy!”.
             </p>
           </div>
 

@@ -1,30 +1,35 @@
 import React from "react";
 import Slider from "react-slick";
+// Local testimonial images (example)
+import ViratImg from "./Virat_Kohli.jpg";
+import RohitImg from "./rohit sharma.jpeg";
+import ShraddhaImg from "./shraddha kapoor.avif";
+import VickyImg from "./vicky kaushal.jpg";
 
 const TestimonialData = [
   {
     id: 1,
-    name: "Victor",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/101/101",
+    name: "Vicky Kaushal",
+    text: "Shopsy stands out with its modern designs and top-notch quality. Every outfit I’ve tried feels fresh, comfortable, and stylish. It’s become my trusted spot for online shopping.",
+    img: VickyImg,
   },
   {
     id: 2,
-    name: "Satya Nadella",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/102/102",
+    name: "Rohit Sharma",
+    text: "What I admire about Shopsy is the variety—whether I need something trendy or timeless, I always find it here. The fabrics feel premium, and the fit is just right. Shopping has never been this effortless",
+    img: RohitImg,
   },
   {
     id: 3,
     name: "Virat Kohli",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/104/104",
+    text: "Shopsy is my go-to destination for stylish, comfortable, and high-quality fashion. I love how easily I can find outfits that match both my sporty lifestyle and casual looks. Truly a game-changer in online shopping",
+    img: ViratImg,
   },
   {
     id: 5,
-    name: "Sachin Tendulkar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
-    img: "https://picsum.photos/103/103",
+    name: "Shraddha Kapoor",
+    text: "Shopsy is all about chic fashion made simple. I adore their collection—it’s stylish, affordable, and perfect for every mood, whether I’m dressing up for a shoot or just keeping it casual. Totally love it!",
+    img: ShraddhaImg,
   },
 ];
 
@@ -79,8 +84,7 @@ const Testimonials = () => {
             Testimonials
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+             
           </p>
         </div>
 
@@ -88,16 +92,13 @@ const Testimonials = () => {
         <div data-aos="zoom-in">
           <Slider {...settings}>
             {TestimonialData.map((data) => (
-              <div className="my-6">
-                <div
-                  key={data.id}
-                  className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
-                >
+              <div className="my-6" key={data.id}>
+                <div className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative">
                   <div className="mb-4">
                     <img
                       src={data.img}
-                      alt=""
-                      className="rounded-full w-20 h-20"
+                      alt={data.name}
+                      className="rounded-full w-20 h-20 object-cover object-center"
                     />
                   </div>
                   <div className="flex flex-col items-center gap-4">

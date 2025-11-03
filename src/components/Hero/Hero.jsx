@@ -10,21 +10,21 @@ const ImageList = [
     img: Image1,
     title: "Upto 50% off on all Men's Wear",
     description:
-      "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Grab the trend! Get up to 50% off on the latest men’s wear — stylish, comfortable, and made for every occasion. Shop now on Shopsy",
   },
   {
     id: 2,
     img: Image2,
     title: "30% off on all Women's Wear",
     description:
-      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Style meets savings! Get up to 30% off on trendy women’s wear — chic, comfortable, and perfect for every mood. Shop now on Shopsy",
   },
   {
     id: 3,
     img: Image3,
     title: "70% off on all Products Sale",
     description:
-      "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Biggest sale ever! Get up to 70% off on all products — fashion, lifestyle, and more only on Shopsy. Hurry, limited time offer",
   },
 ];
 
